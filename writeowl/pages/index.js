@@ -21,7 +21,19 @@ export default function Home() {
         textAlign: 'center'
       }}>
         <div style={{ marginBottom: '3rem' }}>
-          <span className="owl-icon">🦉</span>
+
+           {/* 🦉 Owl Image */}
+          <img 
+            src="/owl.png" 
+            alt="Owl Logo" 
+            style={{ 
+              width: '120px', 
+              height: 'auto', 
+              marginBottom: '1.5rem', 
+              filter: 'invert(1)'
+            }} 
+          />
+          
           <h1 style={{
             fontSize: '3rem',
             fontWeight: 'bold',
@@ -39,6 +51,17 @@ export default function Home() {
             marginBottom: '3rem'
           }}>
             This owl writes for you
+            
+          </p>
+
+          <p style={{
+            fontSize: '1.2rem',
+            color: '#e2e8f0',
+            marginBottom: '3rem'
+          }}>
+            <span>From blogs to emails, essays to captions —</span><br />
+            <span style={{ display: 'inline-block', marginTop: '0.5rem' }}>
+              WriteOwl crafts it all with a touch of wisdom.</span>
           </p>
         </div>
 
